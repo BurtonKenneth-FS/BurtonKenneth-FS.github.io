@@ -1,12 +1,12 @@
 # Ken's Electronics
 
-A static website built with plain HTML, CSS, and JavaScript. No framework, dependencies, or build step is required.
+A working prototype of my company website and to finally get the ball rolling
 
 ## Pages
 
-- `main.html` — Home
-- `about.html` — About Ken
-- `quote.html` — Get a Quote
+- `main.html` — Home, landing page
+- `about.html` — About Ken's Electronics and the owner 
+- `quote.html` — Get a Quote, form for email quote request to make booking appointments fast and easy
 
 ## Run it
 
