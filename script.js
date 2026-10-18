@@ -124,7 +124,7 @@ if (quoteForm) {
       }
 
       quoteForm.reset();
-      setFormNote("success", "Your request was accepted. We’ll be in touch soon. If this is your first submission, check kenseas.help@gmail.com (including spam) for FormSubmit’s activation email.");
+      setFormNote("success", "Your request has been sent successfully. We’ll be in touch soon.");
     } catch (error) {
       const detail = error instanceof Error ? error.message : "An unexpected error occurred.";
       setFormNote("error", `${detail} Please email kenseas.help@gmail.com or call (305)-215-8797.`);
