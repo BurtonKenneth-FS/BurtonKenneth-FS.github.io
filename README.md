@@ -4,10 +4,10 @@ A static website built with plain HTML, CSS, and JavaScript. No framework, depen
 
 ## Pages
 
-- `main.html` — Home
+- `index.html` — Home
 - `about.html` — About Ken
 - `quote.html` — Get a Quote
 
 ## Run it
 
-Open `main.html` in a web browser and use the navigation menu to visit each page. Shared styles are in `styles.css`; the home page interaction is in `script.js`.
+Open `index.html` in a web browser and use the navigation menu to visit each page. Shared styles are in `styles.css`; the home page interaction is in `script.js`.
