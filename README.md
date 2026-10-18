@@ -1,6 +1,6 @@
 # Ken's Electronics
 
-A static website built with plain HTML, CSS, and JavaScript. No framework, dependencies, or build step is required.
+A working prototype of my company website and to finally get the ball rolling
 
 ## Pages
 
