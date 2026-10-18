@@ -30,8 +30,9 @@
   <main class="welcome-card" id="quote">
     <h1>Get a Quote</h1>
     <p class="intro">Share a few details about yourself and the work you have in mind.</p>
-    <form class="quote-fields" action="https://formspree.io/f/xljgvpzz" method="POST">
-      <input type="hidden" name="_subject" value="New quote request - Ken's Electronics">
+    <form class="quote-fields" id="quote-request-form" action="https://formsubmit.co/kenseas.help@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
       <div class="field-group">
         <label for="full-name">Name</label>
         <input id="full-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
@@ -49,6 +50,7 @@
         <textarea id="request-description" name="request" rows="5" placeholder="Tell us what you need help with" required></textarea>
       </div>
       <button class="welcome-button quote-submit" type="submit">Request a Quote</button>
+      <p class="form-note" id="quote-form-note" aria-live="polite">We’ll send your request to kenseas.help@gmail.com.</p>
     </form>
   </main>
 
@@ -64,8 +66,8 @@
       </nav>
       <section class="footer-contact-card" aria-labelledby="footer-brand-title">
         <h2 id="footer-brand-title">Ken's Electronics</h2>
-        <p><span>Phone</span><span class="footer-placeholder">(305)-215-8797</span></p>
-        <p><span>Email</span><span class="footer-placeholder"><a href="mailto:kenseas.help@gmail.com">kenseas.help@gmail.com</a></span></p>
+        <p><span>Phone</span><a class="footer-placeholder" href="tel:+13052158797">(305)-215-8797</a></p>
+        <p><span>Email</span><a class="footer-placeholder" href="mailto:kenseas.help@gmail.com">kenseas.help@gmail.com</a></p>
       </section>
     </div>
   </footer>

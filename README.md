@@ -10,4 +10,8 @@ A static website built with plain HTML, CSS, and JavaScript. No framework, depen
 
 ## Run it
 
-Open `index.html` in a web browser and use the navigation menu to visit each page. Shared styles are in `styles.css`; the home page interaction is in `script.js`.
+Open `index.html` in a web browser and use the navigation menu to visit each page. Shared styles are in `styles.css`; the interactive site logic, theme toggle, mobile menu, and quote-form handling are in `script.js`.
+
+## Contact form
+
+The quote form is wired to FormSubmit and sends submissions to `kenseas.help@gmail.com` with a success/error message displayed on the page after submission.

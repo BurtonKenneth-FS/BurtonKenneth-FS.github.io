@@ -311,6 +311,28 @@ h1 {
   justify-self: start;
 }
 
+.form-note {
+  margin: 0;
+  color: var(--muted-text);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.form-note.success {
+  color: #166534;
+  font-weight: 650;
+}
+
+.form-note.error {
+  color: #991b1b;
+  font-weight: 650;
+}
+
+.form-note.pending {
+  color: var(--muted-text);
+  font-weight: 600;
+}
+
 .welcome-button {
   display: inline-flex;
   align-items: center;
@@ -440,9 +462,24 @@ h1 {
   line-height: 1.5;
 }
 
+.footer-contact-card a {
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.footer-contact-card a:hover,
+.footer-contact-card a:focus-visible {
+  color: #ffe000;
+}
+
 .footer-placeholder {
   color: #f8fafc;
   text-align: right;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.8;
 }
 
 @media (prefers-reduced-motion: reduce) {
