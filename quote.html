@@ -30,7 +30,8 @@
   <main class="welcome-card" id="quote">
     <h1>Get a Quote</h1>
     <p class="intro">Share a few details about yourself and the work you have in mind.</p>
-    <form class="quote-fields" id="quote-request-form">
+    <form class="quote-fields" action="https://formspree.io/f/xljgvpzz" method="POST">
+      <input type="hidden" name="_subject" value="New quote request - Ken's Electronics">
       <div class="field-group">
         <label for="full-name">Name</label>
         <input id="full-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
@@ -48,7 +49,6 @@
         <textarea id="request-description" name="request" rows="5" placeholder="Tell us what you need help with" required></textarea>
       </div>
       <button class="welcome-button quote-submit" type="submit">Request a Quote</button>
-      <p class="form-note" id="quote-form-note" aria-live="polite">Form delivery needs to be connected before requests can be sent.</p>
     </form>
   </main>
 

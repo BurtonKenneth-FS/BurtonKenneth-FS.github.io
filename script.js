@@ -2,7 +2,6 @@ const themeToggle = document.querySelector("#theme-toggle");
 const themeIcons = document.querySelectorAll("[data-theme-icon]");
 const menuToggle = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".top-menu");
-const quoteForm = document.querySelector("#quote-request-form");
 const root = document.documentElement;
 const themePreferenceKey = "ken-electronics-theme";
 const systemThemePreference = window.matchMedia("(prefers-color-scheme: dark)");
@@ -60,10 +59,3 @@ if (menuToggle && navigation) {
     }
   });
 }
-
-if (quoteForm) {
-  quoteForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-  });
-}
-
